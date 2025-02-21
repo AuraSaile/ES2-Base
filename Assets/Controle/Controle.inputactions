@@ -1,0 +1,146 @@
+{
+    "name": "Controle",
+    "maps": [
+        {
+            "name": "Sous-Marin",
+            "id": "9db867d0-62c4-4b43-b617-01a9878ddfd7",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "182389d3-2948-4195-a6e6-e87a426ab875",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Avancer",
+                    "type": "Button",
+                    "id": "c2f5f40c-9331-4e70-9aa5-27a002af8ce9",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Reculer",
+                    "type": "Button",
+                    "id": "c400b1b8-4055-40a5-b433-aafab534b4e1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Monter",
+                    "type": "Button",
+                    "id": "60b8c2e8-11bc-4f4a-b5ae-749b89a80f71",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Descendre",
+                    "type": "Button",
+                    "id": "bdfcc284-7334-48a4-9fd8-260530f3104d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Boost",
+                    "type": "Button",
+                    "id": "7802c7c4-bd1b-4cad-b3af-554e8c055459",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ee3d45f1-c16b-4ead-8c83-868051fa683c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0e2c33be-220a-485c-a55e-449b3eb575ff",
+                    "path": "<Keyboard>/w",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Avancer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01c8b733-3325-4b05-b164-2e2da49c8eaf",
+                    "path": "<Keyboard>/s",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Reculer",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad0a839d-bbcc-4068-bb9c-2edee7f47ce1",
+                    "path": "<Keyboard>/q",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Clavier",
+                    "action": "Monter",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f79355d2-a7e2-4631-91f2-20dcdfe86a43",
+                    "path": "<Keyboard>/e",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Clavier",
+                    "action": "Descendre",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66722df8-f303-4ec6-ba19-68347b6425d6",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "Clavier",
+                    "action": "Boost",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Clavier",
+            "bindingGroup": "Clavier",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

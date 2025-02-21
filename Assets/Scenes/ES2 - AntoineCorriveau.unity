@@ -1365,12 +1365,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2043002143}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1415804852 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
-    type: 3}
-  m_PrefabInstance: {fileID: 3635746710492279695}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1740355994
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,11 +1789,7 @@ PrefabInstance:
     - {fileID: 164292815257963523, guid: 20c0aa25022fd474ebac164d517acaa3, type: 3}
     - {fileID: 4113944047967099689, guid: 20c0aa25022fd474ebac164d517acaa3, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 8632670369948054855}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20c0aa25022fd474ebac164d517acaa3, type: 3}
 --- !u!4 &8632670369948054854 stripped
 Transform:
@@ -1807,37 +1797,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3635746710492279695}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8632670369948054855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415804852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: f40e7f9b8842aff4189f925b851e008f,
-    type: 3}
-  m_NotificationBehavior: 0
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents: []
-  m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: 
-  m_DefaultActionMap: Sous-Marin
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
