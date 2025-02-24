@@ -2,13 +2,13 @@
     "name": "Controle",
     "maps": [
         {
-            "name": "Sous-Marin",
-            "id": "9db867d0-62c4-4b43-b617-01a9878ddfd7",
+            "name": "Personnage",
+            "id": "eaa0f9f8-d518-47a7-b8da-5d1b4c9183f2",
             "actions": [
                 {
-                    "name": "AvancerReculer",
+                    "name": "Promener",
                     "type": "Value",
-                    "id": "db3cae48-1609-4ab1-982b-4fafac51eae7",
+                    "id": "37266dc1-deef-4822-a7de-da86dc8af9cd",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
@@ -17,57 +17,57 @@
             ],
             "bindings": [
                 {
-                    "name": "2D Vector",
-                    "id": "bd2f6662-44c2-4cf7-9957-8e06ac833e0e",
+                    "name": "2D WASD",
+                    "id": "0b7998a4-b21d-4714-bab3-9882d4f83af0",
                     "path": "2DVector",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "AvancerReculer",
+                    "action": "Promener",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "up",
-                    "id": "8855d065-4f9e-453b-889b-07a6e0d02aed",
+                    "id": "af91732b-2a52-4428-8ee4-9162c11aef99",
                     "path": "<Keyboard>/w",
                     "interactions": "",
                     "processors": "",
                     "groups": "Clavier",
-                    "action": "AvancerReculer",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "down",
-                    "id": "24e837d4-69f5-41ee-bf33-e9aa1a59c384",
+                    "id": "788e3953-85a8-4ae5-8e1e-9023c10c7a8f",
                     "path": "<Keyboard>/s",
                     "interactions": "",
                     "processors": "",
                     "groups": "Clavier",
-                    "action": "AvancerReculer",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "left",
-                    "id": "a8bcfa26-1ec5-470c-a173-a5f7bf469cc9",
+                    "id": "7ba0b4cb-3cd0-4ab7-984d-e239f52aa8c0",
                     "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "Clavier",
-                    "action": "AvancerReculer",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
                     "name": "right",
-                    "id": "f3b77982-0861-4155-91be-1fcbafe2e059",
+                    "id": "b563e5d8-9f81-4c58-9e43-5e84f322d63f",
                     "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "Clavier",
-                    "action": "AvancerReculer",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 }
@@ -78,13 +78,7 @@
         {
             "name": "Clavier",
             "bindingGroup": "Clavier",
-            "devices": [
-                {
-                    "devicePath": "<Keyboard>",
-                    "isOptional": false,
-                    "isOR": false
-                }
-            ]
+            "devices": []
         }
     ]
 }
