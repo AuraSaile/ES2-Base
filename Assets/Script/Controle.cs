@@ -9,8 +9,8 @@ public class Controle : MonoBehaviour
 
     // variables de mouvement et contrôle
     [SerializeField] private float _vitessePromenade;
-    [SerializeField] private float _MultiplicateurA;
-    [SerializeField] private float _MultiplicateurB;
+    [SerializeField] private float _boost;
+    [SerializeField] private float _MuliplicateurA;
     private Rigidbody _rb;
     private Vector3 directionInput;
 
@@ -19,20 +19,36 @@ public class Controle : MonoBehaviour
     private Animator _animator;
     private float _rotationVelocity;
 
+
     // Start is called before the first frame update
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
         _animator = GetComponent<Animator>();
-        _MultiplicateurA = -1;
-        _MultiplicateurB = -1;
+        _boost = 1;
+        _MuliplicateurA = -1;
     }
 
     void OnPromener(InputValue directionBase)
     {
-        Vector3 directionAvecVitesse = directionBase.Get<Vector2>() * _vitessePromenade;
+        Vector3 directionAvecVitesse = directionBase.Get<Vector2>() * _vitessePromenade * _boost;
         directionInput = new Vector3(0f,directionAvecVitesse.x , directionAvecVitesse.y);
         Debug.Log(directionInput);
+    }
+
+    void OnDash(InputValue dash)
+    {
+        Debug.Log("Dash");
+        if(dash.isPressed)
+        {
+            _vitessePromenade = 2f;
+            _boost = 2f;
+        }
+        else
+        {
+            _vitessePromenade = 1f;
+            _boost = 1f;
+        }
     }
 
     void FixedUpdate()
